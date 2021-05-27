@@ -1,5 +1,5 @@
 #Практическая работа номер 2 все задания сверху вниз как  в методичке
-
+#Работа со строками
 """
 string1="This is a string   ";
 string2=" This is another string";
@@ -25,6 +25,21 @@ cmh=d[:3]
 cmh=d[1:5:2]
  
 #print(ch)
+#-------------------------------------------------
+#Работа с числами
+"""
+int_i=2
+int_a=5
+print(int_i**2)
+print(5%3)
+print(7/21)
+param="string" + str(15)
+print(param)
+"""
+
+
+
+
 #--------------------------------------------------------
 #Преобразование данных
 #param = "string" + str(15)
@@ -99,6 +114,7 @@ D["quantity"]+=10
 #print(dp)
 #----------
 #Вложенность хранения данных
+"""
 rec={"name":{"firstname":"Bob","lastname":"Smith"},
 "job":["dev","mgr"],
 "age":25}
@@ -108,3 +124,4 @@ print("jobs: ",rec["job"])
 newJob=input("Enter new job ")
 rec["job"].append(newJob)
 print(rec)
+"""
